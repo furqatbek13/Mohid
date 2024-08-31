@@ -7,6 +7,7 @@
 :root {
   --headtextcolor: rgba(139, 142, 153, 1);
   --headbgcolor: black;
+  --textcolor: rgba(255, 255, 255, 1);
 }
 
 .flex {
@@ -65,6 +66,59 @@ header .logos_socials {
 
 .section-1 {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: var(--headbgcolor);
+  color: white;
+  padding: 100px 0px 50px 0px;
+}
+.section-1 .discover_discriotions h1 {
+  width: 457px;
+  height: 275px;
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80.32px;
+  text-align: left;
+  color: var(--textcolor);
+}
+.section-1 .discover_discriotions p {
+  width: 456px;
+  height: 83px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.08px;
+  text-align: left;
+  color: var(--headtextcolor);
+  margin-bottom: 45px;
+}
+.section-1 .section-1_form {
+  width: 440px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-1 .section-1_form i {
+  color: #4562D8;
+  font-size: 25px;
+}
+.section-1 .section-1_form input {
+  width: 280px;
+  height: 80%;
+  border: none;
+  font-size: 20px;
+}
+.section-1 .section-1_form button {
+  width: 110px;
+  height: 45px;
+  background-color: #3858D6;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
