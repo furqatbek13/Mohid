@@ -164,13 +164,13 @@ header .logos_socials {
   color: var(--headtextcolor);
 }
 
-.section-3 {
+.section-3, .section-4 {
   width: 100%;
   height: 100%;
   text-align: center;
   padding-bottom: 50px;
 }
-.section-3 span {
+.section-3 span, .section-4 span {
   font-family: Inter;
   font-size: 16px;
   font-weight: 500;
@@ -178,7 +178,7 @@ header .logos_socials {
   text-align: center;
   color: rgb(56, 88, 214);
 }
-.section-3 h1 {
+.section-3 h1, .section-4 h1 {
   font-family: Inter;
   font-size: 36px;
   font-weight: 700;
@@ -186,13 +186,13 @@ header .logos_socials {
   text-align: center;
   color: var(--cardstextcolor);
 }
-.section-3 .watch_cards_text {
+.section-3 .watch_cards_text, .section-4 .watch_cards_text {
   text-align: center;
   width: 300px;
   margin-bottom: 50px;
   padding-top: 70px;
 }
-.section-3 .watch_cards_text h1 {
+.section-3 .watch_cards_text h1, .section-4 .watch_cards_text h1 {
   font-family: Poppins;
   font-size: 24px;
   font-weight: 600;
@@ -201,11 +201,11 @@ header .logos_socials {
   color: var(--cardstextcolor);
   padding: 15px 0px 8px 0px;
 }
-.section-3 .watch_cards_text strike {
+.section-3 .watch_cards_text strike, .section-4 .watch_cards_text strike {
   color: rgb(139, 142, 153);
   font-size: 18px;
 }
-.section-3 .watch_cards_text span {
+.section-3 .watch_cards_text span, .section-4 .watch_cards_text span {
   color: rgb(30, 29, 29);
   font-family: Poppins;
   font-size: 24px;
@@ -214,13 +214,13 @@ header .logos_socials {
   text-align: left;
   padding-top: 10px;
 }
-.section-3 .watch_cards {
+.section-3 .watch_cards, .section-4 .watch_cards {
   width: 334px;
   height: 337px;
   background-color: var(--cardsbgcolor);
   margin-top: 30px;
 }
-.section-3 button {
+.section-3 button, .section-4 button {
   width: 196px;
   height: 46px;
   background-color: var(--btncolor);
@@ -234,8 +234,43 @@ header .logos_socials {
   color: var(--textcolor);
   cursor: pointer;
 }
-.section-3 button:hover {
+.section-3 button:hover, .section-4 button:hover {
   background-color: transparent;
   color: var(--cardstextcolor);
   transition: all 0.3s linear;
+}
+
+.section-4 .cards_about {
+  display: flex;
+  gap: 100px;
+}
+.section-4 .cards_left {
+  width: 624px;
+  height: 239px;
+  border-radius: 22px;
+  background-color: var(--cardsbgcolor);
+  margin-top: 55px;
+  padding: 0px 30px;
+  gap: 30px;
+}
+.section-4 .cards_left .cards_left_title h2 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  text-align: left;
+  color: var(--cardstextcolor);
+  padding-bottom: 10px;
+}
+.section-4 .cards_left .cards_left_title h5 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+  color: rgb(139, 142, 153);
+  padding-bottom: 10px;
+}
+.section-4 .cards_left .cards_left_title {
+  text-align: left;
 }/*# sourceMappingURL=style.css.map */

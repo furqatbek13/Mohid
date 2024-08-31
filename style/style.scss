@@ -270,3 +270,47 @@ header {
         transition: all 0.3s linear;
     }
 }
+
+.section-4 {
+    @extend .section-3;
+
+    .cards_about {
+        display: flex;
+        gap: 100px;
+    }
+
+    .cards_left {
+        width: 624px;
+        height: 239px;
+        border-radius: 22px;
+        background-color: var(--cardsbgcolor);
+        margin-top: 55px;
+        padding: 0px 30px;
+        gap: 30px;
+
+        .cards_left_title h2 {
+            font-family: Inter;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 29.05px;
+            text-align: left;
+            color: var(--cardstextcolor);
+            padding-bottom: 10px;
+        }
+
+        .cards_left_title h5 {
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19.36px;
+            text-align: left;
+            color: rgba(139, 142, 153, 1);
+            padding-bottom: 10px;
+        }
+
+        .cards_left_title {
+            text-align: left;
+        }
+
+    }
+}
