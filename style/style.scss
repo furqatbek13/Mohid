@@ -8,6 +8,7 @@
     --headtextcolor: rgba(139, 142, 153, 1);
     --headbgcolor: black;
     --textcolor: rgba(255, 255, 255, 1);
+    --cardsbgcolor: rgba(246, 246, 246, 1);
 }
 
 .flex {
@@ -76,7 +77,7 @@ header {
     background-color: var(--headbgcolor);
     color: white;
     padding: 100px 0px 50px 0px;
-    
+
 
     .discover_discriotions h1 {
         width: 457px;
@@ -102,6 +103,7 @@ header {
         color: var(--headtextcolor);
         margin-bottom: 45px;
     }
+
     .section-1_form {
         width: 440px;
         height: 60px;
@@ -136,4 +138,46 @@ header {
         }
     }
 
+}
+
+.section-2 {
+    width: 100%;
+    height: 100%;
+    padding: 70px 0px;
+
+    .cards {
+        width: 354px;
+        height: 239px;
+        border-radius: 22px;
+        background-color: var(--cardsbgcolor);
+        cursor: pointer;
+
+        .cards_decsriptions {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+            padding: 50px;
+
+            h1 {
+                font-family: Inter;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 43.57px;
+                text-align: left;
+                padding-bottom: 10px;
+            }
+
+            p {
+                width: 173px;
+                height: 76px;
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 19.36px;
+                text-align: left;
+                color: var(--headtextcolor);
+            }
+        }
+    }
 }

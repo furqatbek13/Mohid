@@ -8,6 +8,7 @@
   --headtextcolor: rgba(139, 142, 153, 1);
   --headbgcolor: black;
   --textcolor: rgba(255, 255, 255, 1);
+  --cardsbgcolor: rgba(246, 246, 246, 1);
 }
 
 .flex {
@@ -121,4 +122,42 @@ header .logos_socials {
   color: #fff;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.section-2 {
+  width: 100%;
+  height: 100%;
+  padding: 70px 0px;
+}
+.section-2 .cards {
+  width: 354px;
+  height: 239px;
+  border-radius: 22px;
+  background-color: var(--cardsbgcolor);
+  cursor: pointer;
+}
+.section-2 .cards .cards_decsriptions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 50px;
+}
+.section-2 .cards .cards_decsriptions h1 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.57px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.section-2 .cards .cards_decsriptions p {
+  width: 173px;
+  height: 76px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+  color: var(--headtextcolor);
 }/*# sourceMappingURL=style.css.map */
