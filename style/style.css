@@ -9,6 +9,8 @@
   --headbgcolor: black;
   --textcolor: rgba(255, 255, 255, 1);
   --cardsbgcolor: rgba(246, 246, 246, 1);
+  --cardstextcolor: rgba(30, 29, 29, 1);
+  --btncolor: rgba(56, 88, 214, 1);
 }
 
 .flex {
@@ -160,4 +162,80 @@ header .logos_socials {
   line-height: 19.36px;
   text-align: left;
   color: var(--headtextcolor);
+}
+
+.section-3 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.section-3 span {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: center;
+  color: rgb(56, 88, 214);
+}
+.section-3 h1 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.57px;
+  text-align: center;
+  color: var(--cardstextcolor);
+}
+.section-3 .watch_cards_text {
+  text-align: center;
+  width: 300px;
+  margin-bottom: 50px;
+  padding-top: 70px;
+}
+.section-3 .watch_cards_text h1 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
+  color: var(--cardstextcolor);
+  padding: 15px 0px 8px 0px;
+}
+.section-3 .watch_cards_text strike {
+  color: rgb(139, 142, 153);
+  font-size: 18px;
+}
+.section-3 .watch_cards_text span {
+  color: rgb(30, 29, 29);
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.92px;
+  text-align: left;
+  padding-top: 10px;
+}
+.section-3 .watch_cards {
+  width: 334px;
+  height: 337px;
+  background-color: var(--cardsbgcolor);
+  margin-top: 30px;
+}
+.section-3 button {
+  width: 196px;
+  height: 46px;
+  background-color: var(--btncolor);
+  border-radius: 20px;
+  border: none;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: var(--textcolor);
+  cursor: pointer;
+}
+.section-3 button:hover {
+  background-color: transparent;
+  color: var(--cardstextcolor);
+  transition: all 0.3s linear;
 }/*# sourceMappingURL=style.css.map */
